@@ -1,6 +1,6 @@
 'use strict'
 
-const logger = require('../middleware/logger.js');
+/* const logger = require('../middleware/logger.js');
 
 
 module.exports = function (err, req, res, next) {
@@ -15,3 +15,8 @@ module.exports = function (err, req, res, next) {
   
     response.status(errorObject.status).json(errorObject);
   }
+ */
+
+module.exports = function(request, response, next) {
+  response.status(404).send('That route is not found');
+}

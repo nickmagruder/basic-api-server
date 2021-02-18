@@ -1,8 +1,11 @@
-'use strict'
+'use strict';
 
-module.exports = function(req, res, next) {
-    if (!req.query.name) {
-      next('Person Not Found');
-    }
-  next();
+
+module.exports = function(request, response, next) {
+
+  if(!parseInt(request.params.id)) {
+    next('Invalid ID');
+  } else {
+    next();
   }
+}

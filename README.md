@@ -16,7 +16,7 @@ Define your field names and an empty data storage in the constructor"
 
 
 ## User Instructions
-* accessible at: [https://nmagruder-basic-express-server.herokuapp.com/](https://nmagruder-basic-express-server.herokuapp.com/)
+* accessible at: [https://nmagruder-basic-api-server.herokuapp.com/](https://nmagruder-basic-api-server.herokuapp.com/)
 
 * To run tests, clone to a directory and run npm test in directory in terminal
 
